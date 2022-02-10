@@ -6,8 +6,7 @@
 int partOne()
 {
     FILE * fPointer = fopen("input.txt", "r");
-    int array[LINES], line;
-    char c;
+    int array[LINES];
 
     for (int i = 0; i < LINES; i++)
         fscanf(fPointer, "%d", &array[i]);
@@ -21,8 +20,7 @@ int partOne()
 int partTwo()
 {
     FILE * fPointer = fopen("input.txt", "r");
-    int array[LINES], line;
-    char c;
+    int array[LINES];
 
     for (int i = 0; i < LINES; i++)
         fscanf(fPointer, "%d", &array[i]);
